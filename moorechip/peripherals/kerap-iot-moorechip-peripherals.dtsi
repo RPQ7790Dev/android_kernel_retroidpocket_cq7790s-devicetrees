@@ -318,5 +318,17 @@
 		vdd-supply = <&joystick_vdd_reg>;
 		levelshifter-supply = <&joystick_levelshifter_reg>;
 		moorechip,layout-nintendo;
+		moorechip,stick-left-x-min = <833>;
+		moorechip,stick-left-x-max = <3192>;
+		moorechip,stick-left-x-center = <2084>;
+		moorechip,stick-left-y-min = <672>;
+		moorechip,stick-left-y-max = <3406>;
+		moorechip,stick-left-y-center = <2074>;
+		moorechip,stick-right-x-min = <719>;
+		moorechip,stick-right-x-max = <3205>;
+		moorechip,stick-right-x-center = <2052>;
+		moorechip,stick-right-y-min = <506>;
+		moorechip,stick-right-y-max = <3436>;
+		moorechip,stick-right-y-center = <2013>;
 	};
 };
